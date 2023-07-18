@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "electron": "^25.2.0",
+    "jquery": "^3.7.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "save": "^2.9.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^17.1.1"
+  }
+}

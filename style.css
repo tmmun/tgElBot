@@ -1,0 +1,271 @@
+body {
+    background-color: #292734;
+}
+
+#drag {
+    -webkit-app-region: drag;
+}
+
+#cont0 {
+    display: flex;
+    margin-top: 10px;
+}
+
+#cont1 {
+    display: flex;
+    width: 299px;
+    height: 51px;
+    background-color: #353340;
+}
+
+#cont2 {
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 299px;
+    height: 85px;
+    margin-top: 10px;
+    background-color: #353340;
+}
+
+#cont3 {
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 299px;
+    height: 85px;
+    margin-top: 10px;
+    background-color: #353340;
+}
+
+#cont35 {
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 299px;
+    height: 300px;
+    margin-top: 10px;
+    background-color: #353340;
+}
+
+#cont4 {
+    width: 470px;
+    margin-left: 10px;
+    background-color: #353340;
+}
+
+.section {
+    overflow-x: auto;
+    height: 580px;
+    scroll-snap-type: y mandatory;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.section::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.section_profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 300px;
+    height: 200px;
+    font-size: 50px;
+}
+
+#cont5 {
+    width: 191px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: #292734;
+}
+
+#cont6 {
+    padding: 10px;
+    width: 170px;
+    height: 520px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #353340;
+}
+
+#icoWin {
+    margin-left: 5px;
+}
+
+#icoBase {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+#icoProf {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#textProf {
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    margin-right: 10px;
+}
+
+#profile {
+    margin: 10px;
+    padding: 10px;
+    background-color: #292734;
+    display: flex;
+    border-radius: 3px;
+}
+
+#message {
+    word-wrap: break-word;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background-color: #292734;
+}
+
+
+#inp {
+    background-color: #292734;
+    border-radius: 5px;
+    border-width: 0px;
+    outline: none;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    padding: 0px 10px;
+}
+
+.tokenInp {
+    width: 218px;
+    height: 30px;
+    margin: 10px 0px;
+}
+
+.postText {
+    width: 215px;
+    height: 30px;
+    margin: 0px 10px;
+    margin-top: 10px;
+}
+
+.postChatId {
+    width: 179px;
+    height: 30px;
+    margin: 0px 10px;
+    margin-top: 10px;
+}
+
+.fileNameInp {
+    width: 258px;
+    height: 30px;
+    margin: 0px 10px;
+    margin-top: 10px;
+}
+
+.intervalCount {
+    width: 56px;
+    height: 30px;
+    margin: 0px 10px;
+    margin-top: 10px;
+}
+
+.saveNameInp {
+    width: 97px;
+    height: 30px;
+    margin: 0px 10px;
+    margin-top: 10px;
+}
+
+.saveTextInp {
+    width: 258px;
+    height: 209px;
+    margin: 0px 10px;
+    margin-top: 10px;
+    resize: none;
+}
+
+
+#swich {
+    width: 34px;
+    height: 30px;
+    border-radius: 5px;
+    background: #292734;
+    color: white;
+    line-height: 30px;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.arrPost {
+    width: 34px;
+    height: 30px;
+    border-radius: 5px;
+    background: #292734;
+    color: white;
+    line-height: 30px;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#container {
+    margin-top: 10px;
+    display: flex;
+}
+
+.fileCont {
+    padding: 10px;
+    background-color: #292734;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+
+#but {
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.startPost {
+    margin-left: 10px;
+}
+
+.stopPost {
+    margin-left: 10px;
+}
+
+.saveText {
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.readText {
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.delText {
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
